@@ -23,5 +23,8 @@ executable platinum-organizer
   -- other-modules:
   -- other-extensions:
   build-depends:       base >=4.12 && <4.13
+                     , bytestring
+                     , cassava
+                     , vector
   -- hs-source-dirs:
   default-language:    Haskell2010
